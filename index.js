@@ -53,7 +53,7 @@ if (buttonClick && copyTextInput) {
     }
   })
 
-  buttonClick.addEventListener('click', function() {
+  buttonClick.addEventListener('Click', function() {
     buttonClick.innerText = 'Click';
     copyTextInput.value = '';
   })
