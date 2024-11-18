@@ -36,7 +36,7 @@ if (coloredParagraph && coloredParagraphButton) {
     } else {
       coloredParagraph.style.color = 'black';
     }
-    clickCount = ++clickCount;
+    clickCount += 1;
   })
 }
 
@@ -70,7 +70,7 @@ if (yellowButton) {
     } else {
       yellowButton.style.backgroundColor = 'yellow';
     }
-    clickCount = ++clickCount;
+    clickCount += 1;
   })
 }
 
@@ -82,7 +82,7 @@ if (inputValue && inputChangeButton) {
   let clickCount = 0;
 
   inputChangeButton.addEventListener('click', function() {
-    clickCount = ++clickCount;
+    clickCount += 1;
     inputValue.value = clickCount;
   })
 }
