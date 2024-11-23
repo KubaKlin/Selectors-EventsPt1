@@ -1,10 +1,10 @@
 // 1
 const backgroundInput = document.querySelector('#background-color-input');
-const button = document.querySelector('#background-color-button');
+const backgroundButton = document.querySelector('#background-color-button');
 
 if (backgroundInput && button) {
-  button.addEventListener('click', function() {
-    button.style.backgroundColor = backgroundInput.value;
+  backgroundButton.addEventListener('click', function() {
+    backgroundButton.style.backgroundColor = backgroundInput.value;
   });
 }
 
